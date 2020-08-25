@@ -1,2 +1,6 @@
 <!--pages/home/home.wxml-->
-<text>hello world</text>
+<text>hello {{name}}</text>
+<view>age:{{age}}</view>
+<view>当前计数为：{{count}}</view>
+<button size="mini" bindtap="handleClick">+</button>
+<view>------------------------------</view>
